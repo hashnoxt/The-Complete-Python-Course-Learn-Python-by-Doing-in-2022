@@ -13,3 +13,12 @@ String
 print(multiline_string)
 
 
+#F-strings
+
+first = 'Hello'
+second = 'World'
+
+test_string = f' {first} , {second}'
+
+print(test_string)
+
