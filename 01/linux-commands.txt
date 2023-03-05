@@ -1,0 +1,19 @@
+pwd - current location
+
+cd - change directory
+
+ls - list
+
+pip freeze - list all libraries which are currntly installed
+
+pip freeze > requirements.txt - write all packages to txt file
+
+pip install -r requirements.txt - install all packages in requirements.txt
+
+rm -rf venv - delete folder
+
+pipenv install - install requirements.txt
+
+pipenv run python - run virtualenv python
+
+IF you move the file you need to recreate the virtualenv in pipenv
