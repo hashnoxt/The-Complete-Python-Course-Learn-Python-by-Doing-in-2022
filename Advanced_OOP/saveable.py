@@ -1,7 +1,7 @@
 from database import Database
 from abc import ABCMeta, abstractmethod
 
-class Savable(mataclass=ABCMeta):
+class Savable(metaclass=ABCMeta):
     def save(self):
         Database.insert(self.to_dict())
 
